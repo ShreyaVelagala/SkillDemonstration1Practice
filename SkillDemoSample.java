@@ -1,3 +1,10 @@
+import java.util.Arrays;
 public class SkillDemoSample {
-//will fill in code on VS code 
+    public static int averageArray(int[] array){
+        int average = 0; 
+        for(int val: array){
+            average += val; 
+        }
+        return average;
+    }
 }
