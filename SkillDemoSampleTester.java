@@ -7,6 +7,6 @@ public class SkillDemoSampleTester {
     int[] intArray = {0,1,2,3};
     @Test
     public void arrayAverage() {
-        assertEquals(4, SkillDemoSample.averageArray(intArray));
+        assertEquals(5, SkillDemoSample.averageArray(intArray));
     }
 }
